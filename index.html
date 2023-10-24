@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Daddy Bank</title>
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <title>Daddy - Bank</title>
 </head>
+
 <body>
     <header>
-        <h1 class="text-4xl text-center mt-5 font-bold">DADDY <span class="text-orange-600">BANK</span></h1>
+        <div class="flex justify-center items-center mt-5">
+            <img class="w-[55px] md:w-[80px]" src="fav.png" alt="">
+            <h1 class="text-3xl md:text-4xl   font-bold">DADDY <span class="text-orange-600">BANK</span></h1>
+        </div>
     </header>
+    <main>
+        <section class="p-8 rounded mt-[40px] w-9/12 md:w-4/12 mx-auto bg-blue-200">
+            <h3 class="text-3xl text-gray-800 font-bold">Login</h3>
+            <div class="mt-[20px]">
+                <input class="block outline-none w-full py-3 px-3 rounded" type="email" placeholder="dady@bank.com" name="" id="user_email">
+                <input class="block outline-none w-full py-3 px-3 rounded mt-2" type="password" placeholder="mydadybank" name="" id="user_password">
+            </div>
+            <button id="btn-login" class="bg-orange-600 text-white py-2 px-8 rounded mt-3 hover:bg-blue-400">Login</button>
+        </section>
+    </main>
+
+    <script src="js/login.js"></script>
 </body>
+
 </html>

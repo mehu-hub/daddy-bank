@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <title>Daddy - Bank</title>
+</head>
+
+<body>
+    <header> 
+        <div class="flex justify-center items-center mt-5 gap-5">
+            <h1 class="text-xl md:text-4xl font-bold">WELCOME TO</h1>
+            <img class="w-[55px] md:w-[80px]" src="fav.png" alt="">
+            <h1 class="text-xl md:text-4xl   font-bold">DADDY <span class="text-orange-600">BANK</span></h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="grid grid-cols-1 md:grid-cols-3 w-9/12 mx-auto mt-8 gap-5 text-white">
+                <div class="bg-green-400 p-8 rounded-xl">
+                    <p class="text-2xl font-semibold">Deposit</p>
+                    <p class="text-5xl font-semibold">$00</p>
+                </div>
+                <div class="bg-red-400 p-8 rounded-xl">
+                    <p class="text-2xl font-semibold">Withdraw</p>
+                    <p class="text-5xl font-semibold">$00</p>
+                </div>
+                <div class="bg-violet-400 p-8 rounded-xl">
+                    <p class="text-2xl font-semibold">Balance</p>
+                    <p class="text-5xl font-semibold">$100</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 w-9/12 mx-auto mt-8 gap-5 text-white">
+                <div class="bg-blue-400 p-8 rounded-xl">
+                    <p class="text-3xl font-semibold">Deposit Now</p>
+                    <input class="block mt-8 outline-none text-black py-2 w-6/12 p-3 rounded" placeholder="$amout you want to deposit" type="number">
+                    <button class="bg-blue-600 hover:bg-green-400 mt-2 rounded py-2 px-8">Deposit</button>
+                </div>
+                <div class="bg-purple-400 p-8 rounded-xl">
+                    <p class="text-3xl font-semibold">Withdraw Now</p>
+                    <input class="block mt-8 outline-none text-black py-2 w-6/12 p-3 rounded" placeholder="$amout you want to withdraw" type="number">
+                    <button class="bg-purple-600 hover:bg-red-400 mt-2 rounded py-2 px-8">Withdraw</button>
+                </div> 
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
