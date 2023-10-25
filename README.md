@@ -1,1 +1,1 @@
-<h1>Welcome to Dady Bank</h1>
+<h1>Welcome to Daddy Bank</h1>
