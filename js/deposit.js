@@ -3,7 +3,7 @@ document.getElementById('btn-deposit').addEventListener('click', function(){
     const newDepositAmountString = depositInput.value;
     const newDepositAmount = parseFloat(newDepositAmountString)
     if(isNaN(newDepositAmount)){
-        alert('Pleaser Enter a Number');
+        alert('Pleaser enter a number');
         return;
     }
     const depositTotalElement = document.getElementById('deposit-total');
